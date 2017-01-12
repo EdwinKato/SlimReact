@@ -21435,7 +21435,7 @@
 	        }
 	        App.prototype.render = function () {
 	            return (React.createElement("div", null, 
-	                React.createElement(Header, {name: 9})
+	                React.createElement(Header, {name: "SlimReact"})
 	            ));
 	        };
 	        return App;
@@ -21446,9 +21446,7 @@
 	            _super.apply(this, arguments);
 	        }
 	        Header.prototype.render = function () {
-	            return (React.createElement("div", null, 
-	                "I know you ", 
-	                this.props.name));
+	            return (React.createElement("div", null, this.props.name));
 	        };
 	        return Header;
 	    }(React.Component));

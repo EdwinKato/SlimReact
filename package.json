@@ -10,12 +10,14 @@
   "license": "ISC",
   "dependencies": {
     "react": "^15.3.2",
+    "react-bootstrap": "^0.30.7",
     "react-dom": "^15.3.2",
     "ts-loader": "^0.9.5",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.16.2"
   },
   "devDependencies": {
+    "@types/react-bootstrap": "0.0.37",
     "typescript": "^2.0.6"
   }
 }

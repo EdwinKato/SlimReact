@@ -15,11 +15,12 @@ interface HeaderProps {
     name?: string | number;
 }
 
+
 class App extends React.Component<AppProps, {}> {
     render() {
         return (
             <div>
-                <Header name = { 9 } />                
+                <Header name = "SlimReact" />                
             </div>
 
         );
@@ -30,7 +31,7 @@ class Header extends React.Component<HeaderProps, {}> {
     render() {
         return (
             <div>
-                I know you {this.props.name}
+                {this.props.name}
             </div>
         );
     }
