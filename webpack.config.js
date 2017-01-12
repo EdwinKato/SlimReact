@@ -1,8 +1,8 @@
 var config = {
-    entry: "./main.tsx",
+    entry: "./src/main.tsx",
 
     output: {
-        path: "./",
+        path: "./dist",
         filename: "index.js",
     },
 
@@ -32,7 +32,8 @@ var config = {
                 exclude: /node_modules/
             }
         ]
-    }
+    },
+    watch: true
 };
 
 module.exports = config;
