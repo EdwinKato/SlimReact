@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --hot"
+    "start": "webpack-dev-server --hot",
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",
@@ -12,19 +13,23 @@
     "react": "^15.3.2",
     "react-bootstrap": "^0.30.7",
     "react-dom": "^15.3.2",
-    "ts-loader": "^0.9.5",
-    "source-map-loader": "^0.1.5",
-    "style-loader": "^0.13.1",
+    "styled-components": "^1.2.1"
+  },
+  "devDependencies": {
+    "@types/react-bootstrap": "0.0.37",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.16.2",
+    "ts-loader": "^0.9.5",
+    "@types/enzyme": "^2.4.36",
+    "typescript": "^2.0.6",
+    "@types/react": "^0.14.37",
+    "@types/react-dom": "^0.14.17",
+    "source-map-loader": "^0.1.5",
+    "style-loader": "^0.13.1",
     "grunt": "1.0.1",
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-newer": "^1.1.1",
     "grunt-webpack": "^1.0.18"
-  },
-  "devDependencies": {
-    "@types/react-bootstrap": "0.0.37",
-    "typescript": "^2.0.6"
   }
 }
