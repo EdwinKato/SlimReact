@@ -40397,7 +40397,7 @@
 /* 428 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__, exports, __webpack_require__(1), __webpack_require__(430), __webpack_require__(429)], __WEBPACK_AMD_DEFINE_RESULT__ = function (require, exports, react_1, Brand_1, Navigation_1) {
+	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__, exports, __webpack_require__(1), __webpack_require__(429), __webpack_require__(430)], __WEBPACK_AMD_DEFINE_RESULT__ = function (require, exports, react_1, Brand_1, Navigation_1) {
 	    "use strict";
 	    exports.Header = function () {
 	        return react_1.DOM.div({
@@ -40417,6 +40417,20 @@
 
 /***/ },
 /* 429 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__, exports, __webpack_require__(1)], __WEBPACK_AMD_DEFINE_RESULT__ = function (require, exports, react_1) {
+	    "use strict";
+	    exports.Brand = function (props) {
+	        return react_1.DOM.h1({
+	            style: { width: 0, color: "#e74c3c", fontSize: "28px", fontWeight: 600, textTransform: "uppercase", textAlign: "center" }
+	        }, "BRAND");
+	    };
+	}.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+
+
+/***/ },
+/* 430 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__, exports, __webpack_require__(1)], __WEBPACK_AMD_DEFINE_RESULT__ = function (require, exports, react_1) {
@@ -40443,20 +40457,6 @@
 	        }, react_1.DOM.span({
 	            className: "navigationItemStyle"
 	        }, "3"))))));
-	    };
-	}.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-
-
-/***/ },
-/* 430 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__, exports, __webpack_require__(1)], __WEBPACK_AMD_DEFINE_RESULT__ = function (require, exports, react_1) {
-	    "use strict";
-	    exports.Brand = function (props) {
-	        return react_1.DOM.h1({
-	            style: { width: 0, color: "#e74c3c", fontSize: "28px", fontWeight: 600, textTransform: "uppercase", textAlign: "center" }
-	        }, "BRAND");
 	    };
 	}.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
